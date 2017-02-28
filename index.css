@@ -1,0 +1,401 @@
+body {
+	position: relative;
+}
+
+section {
+	background-color: black;
+	width: 100%;
+	padding: 20px 0px;
+}
+
+p {
+	color: white;
+}
+
+.col-center{
+	float: none;
+	margin: 0 auto;
+}
+
+.headline {
+	padding: 40px 0px;
+}
+
+.headline h3 {
+	color: white;
+}
+
+.headline h4 {
+	color: yellow;
+	margin: 40px 0;
+}
+
+.headline img {
+	display: block;
+	margin: 0 auto;
+}
+
+.description {
+	padding: 40px 0px;
+	text-align: center;
+	font-size: 18px;
+}
+
+.description p {
+	margin-top: 20px;
+}
+
+.description img {
+	max-width: 100%;
+}
+
+.description .title {
+	color: yellow;
+}
+
+/* nav */
+
+.navbar-default {
+	padding: 30px 0px;
+	background-color: black;
+	text-align: center;
+}
+
+.navbar-default .navbar-nav {
+	padding-left: 0px;
+	display: inline-block;
+	float: none;
+}
+
+.navbar-default .navbar-nav li {
+	margin: 10px 30px;
+}
+
+.navbar-default .navbar-nav li a {
+	padding: 10px 5px;
+	color: white;
+	font-size: 20px;
+}
+
+.navbar-default .navbar-nav li a:hover,
+.navbar-default .navbar-nav li a:focus {
+	color: white;
+	background-color: black;
+	text-decoration: none;
+}
+
+.navbar-default .navbar-nav .active {
+	border-bottom: 3px solid yellow;
+}
+
+.navbar-default .navbar-nav .active a {
+	color: white;
+	background-color: black;
+}
+
+.navbar-default .navbar-nav .active a:hover,
+.navbar-default .navbar-nav .active a:focus {
+	color: white;
+	background-color: black;
+}
+
+/* section 1 */
+
+.hero-image {
+	width: 100%;
+}
+
+/* section 2 */
+
+.section2 {
+	background-image: url("bg_02.png");
+	background-position: center top;
+	background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+.intro {
+	margin: 120px 0px;
+	font-size: 20px;
+}
+
+/* section 3 */
+
+.section3 {
+	background-image: url("bg_03.png");
+	background-position: center top;
+	background-repeat: no-repeat;
+    background-size: 100% auto;
+    padding-bottom: 0px;
+}
+
+.rule-container {
+	position: relative;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+.rule-container .rule-image {
+	width: 100%;
+}
+
+.rule-container .unit1 {
+	position: absolute;
+	left: 0%;
+}
+
+.rule-container .unit2 {
+	position: absolute;
+	left: 25%;
+}
+
+.rule-container .unit3 {
+	position: absolute;
+	left: 50%;
+}
+
+.rule-container .unit4 {
+	position: absolute;
+	left: 75%;
+}
+
+.rule-container .door {
+	cursor: pointer;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+
+.rule-container .left-shadow {
+	box-shadow: -8px 0px 5px #121212;
+}
+
+.rule-container .right-shadow {
+	box-shadow: 8px 0px 5px #121212;
+}
+
+.rule-container .rule-title-container {
+	position: relative;
+}
+
+.rule-container .rule-title-container .rule-title {
+	color: white;
+	position: absolute;
+	text-align: center;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	top: 75%;
+}
+
+.rule-container .rule-content-container {
+	position: relative;
+}
+
+.rule-container .rule-content-container .rule-content {
+	position: absolute;
+	text-align: center;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	top: 30%;
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	transition: all 1s ease;
+	opacity: 0;
+}
+
+.rule-container .rule-content-container .rule-content.show {
+	opacity: 1;
+}
+
+.rule-container .rule-content-container .rule-content h3 {
+	color: #bebebe;
+}
+
+.rule-container .rule-content-container .rule-content p {
+	color: white;
+	text-align: left;
+	font-size: 20px;
+	padding: 10px 50px;
+}
+
+.rule-container .rule-content-container .rule-content span {
+	color: red;
+}
+
+/* section 4 */
+
+.section4 {
+	background-image: url("bg_04.png");
+	background-position: center top;
+	background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+.grid {
+	height: 360px;
+	margin: 10px;
+	background-color: white;
+}
+
+.grid .title {
+	height: 60px;
+	font-size: 16px;
+	display: flex;
+	text-align: center;
+  	justify-content: center;
+  	align-items: center;
+}
+
+.grid .image-container {
+	height: 200px;
+	display: flex;
+	justify-content: center;
+	overflow: hidden;
+}
+
+.grid .small-grid {
+	height: 100px;
+}
+
+.grid .require-points {
+	background-color: #c4be9d;
+	color: white;
+}
+
+.grid .small-grid .name {
+	text-align: center;
+	line-height: 250%;
+	font-size: 16px;
+}
+
+.grid .small-grid .value {
+	text-align: center;
+	line-height: 80%;
+	font-size: 40px;
+}
+
+/* section 5 */
+
+.bonus-title {
+	margin-top: 80px;
+	margin-left: 30px;
+	color: yellow;
+}
+
+.bonus-content {
+	margin: 0px 60px 80px 40px;
+	font-size: 20px;
+}
+
+.bouns {
+	float: right;
+	color: yellow;
+	font-size: 20px;
+}
+
+.yellow-line {
+	border-color: yellow;
+	border-bottom: 8px solid yellow;
+	margin: 0px 0px 10px 0px;
+}
+
+.register-container {
+    position: relative;
+}
+
+.register-container .register-store {
+	background-image: url("register_store.png");
+	background-position: center center;
+	background-repeat: no-repeat;
+    background-size: 100% auto;
+    padding-top: 100%;
+}
+
+.register-container .register-contest {
+	background-image: url("register_contest.png");
+	background-position: center center;
+	background-repeat: no-repeat;
+    background-size: 100% auto;
+    padding-top: 100%;
+}
+
+.register-container .circle {
+	position: absolute;
+	margin: auto;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	width: 200px;
+	height: 200px;
+	border-radius: 200px;
+	background-color: yellow;
+}
+
+.register-container .round {
+	position: absolute;
+	margin: auto;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	width: 230px;
+	height: 230px;
+	border-radius: 230px;
+	border: 4px solid yellow;
+}
+
+.register-container .content {
+	position: absolute;
+	margin: auto;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	width: 150px;
+	height: 150px;
+	pointer-events: none;
+}
+
+.register-container .content .content-container {
+	position: relative;
+	text-align: center;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.register-container .content .content-container div {
+	font-size: 30px;
+	color: black;
+}
+
+.register-container .content .content-container hr {
+	border-color: black;
+	border-bottom: 1px solid black;
+	margin: 5px 10px;
+}
+
+/* animation */
+
+.register-container .round:hover {
+	animation-name: clickable;
+	animation-duration: 0.5s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes clickable {
+	50% {
+		width: 250px;
+		height: 250px;
+		border-radius: 250px;
+		border: 4px solid yellow;
+	}
+}
+
+

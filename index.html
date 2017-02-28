@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>》PointTree《</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="index.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+		<script src="index.js"></script>
+	</head>
+	<body data-target="#navbar-spy" data-spy="scroll">
+		<nav class="nav navbar-default navbar-fixed-top" id="navbar-spy">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				</div>
+				<div class="collapse navbar-collapse" id="myNavbar">
+					<ul class="nav navbar-nav">
+						<li class="active"><a href="#section2">活動辦法</a></li>
+						<li><a href="#section3">活動規則</a></li>
+						<li><a href="#section4">獎勵機制</a></li>
+						<li><a href="#section5">線上報名</a></li>
+						<li><a href="#section6">關於我們</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+
+		<section>
+			<img src="bg_01.jpg" class="hero-image">
+		</section>
+
+		<section class="section2" id="section2">
+			<div class="row col-xs-8 col-md-8 col-center">
+				<div class="intro">
+					<p>
+						從《出神入化》電影中走出來，四騎士用厲害的幻術為弱勢聲張正義，你也擁有這樣的能力並期待世界變得更好嗎？是時候展現你的神力了！說服店家成為2017新一代數位店家，行銷數位化支持環保一起愛地球！<br><br>
+						It’s time to show！來場魔幻術，邀請店家加入集點樹，拒絕使用紙本集點卡或其他行銷文宣品破壞地球的行列。
+					</p>
+				</div>
+			</div>
+			<div class="row headline">
+				<h3 class="text-center">活動辦法</h3>
+				<img src="title_line.png">
+			</div>
+			<div class="row description">
+				<div class="col-xs-8 col-md-8 col-center">
+					<div class="col-xs-6 col-md-6">
+						<p class="title">+活動日期+</p>
+						<p>即日起至2017年5月31日</p>
+						<p class="title">+參賽資格+</p>
+						<p>中華民國國籍國民、不限年齡</p>
+					</div>
+					<div class="col-xs-6 col-md-6">
+						<p class="title">+參加方式+</p>
+						<p>參賽者至APPLE STORE / GOOGLE PLAY 下載集點樹 App、註冊成為會員，並填寫參賽報名表登記成為魔幻大師。</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="section3" id="section3">
+			<div class="row headline">
+				<h3 class="text-center">活動規則</h3>
+				<img src="title_line.png">
+				<h4 class="text-center">請選擇您的魔法師之路？(天眼組織 / 神秘組織)</h4>
+			</div>
+			<div class="row rule-container">
+				<div class="col-md-3">
+					<div class="row">
+						<img src="sky_eye_grayscale.png" class="rule-image">
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="row rule-content-container">
+						<img src="black_card.png" class="rule-image">
+						<div class="rule-content" id="sky_eye_content_left">
+							<h3>任務過關條件</h3>
+							<h3>&nbsp;</h3>
+							<p>
+								參賽者說服店家線上註冊集點樹，通過集點樹審核後上架。<br>
+								（未使用平板之店家需於一個月內累積會員數達 100 人方可過關。）
+							</p>
+						</div>
+						<div class="rule-content" id="mystery_content_left">
+							<h3>任務過關條件</h3>
+							<h3>&nbsp;</h3>
+							<p>參賽者挖掘店家使用集點卡，拍下集點卡私訊至「集點樹粉絲專頁」，並提供店家資訊。</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="row rule-content-container">
+						<img src="black_card.png" class="rule-image">
+						<div class="rule-content" id="sky_eye_content_right">
+							<h3>任務完成獎勵</h3>
+							<h3>（天眼點數及獎金）</h3>
+							<p>
+								<span>天眼點數</span>：5 點。<br>
+								<span>獎金：</span><br>
+								談成一家店 500 元、談成二家店 700 元、談成三家店 1,000 元，之後談成一家店家皆為 1,000 元。
+							</p>
+						</div>
+						<div class="rule-content" id="mystery_content_right">
+							<h3>任務完成獎勵</h3>
+							<h3>（天眼點數）</h3>
+							<p><span>天眼點數</span>：2 點。</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="row">
+						<img src="mystery_grayscale.png" class="rule-image">
+					</div>
+				</div>
+				<!-- absolute positioned doors -->
+				<div class="col-md-3 unit2 door left-shadow" id="left_door">
+					<div class="row rule-title-container">
+						<img src="sky_eye.png" class="rule-image" id="left_door_image">
+						<div class="rule-title" id="left_door_title">
+							<h2>天眼組織</h2>
+							<h3>說服店家加入集點樹</h3>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 unit3 door right-shadow" id="right_door">
+					<div class="row rule-title-container">
+						<img src="mystery.png" class="rule-image" id="right_door_image">
+						<div class="rule-title" id="right_door_title">
+							<h2>神秘組織</h2>
+							<h3>推薦店家加入集點樹</h3>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="section4" id="section4">
+			<div class="row headline">
+				<h3 class="text-center">獎勵機制</h3>
+				<img src="title_line.png">
+				<h4 class="text-center">用天眼點數換得以下大獎。</h4>
+			</div>
+			<div class="row col-md-10 col-center">
+				<div class="col-md-4">
+					<div class="grid">
+						<div class="title">（單人）台北 - 東京來回機票</div>
+						<div class="image-container">
+							<img src="tokyo.png">
+						</div>
+						<div class="col-md-4 small-grid require-points">
+							<div class="name">點數</div>
+							<div class="value">85</div>
+						</div>
+						<div class="col-md-4 small-grid">
+							<div class="name">限量</div>
+							<div class="value">5</div>
+						</div>
+						<div class="col-md-4 small-grid">
+							<div class="name">剩餘</div>
+							<div class="value">5</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="grid">
+						<div class="title">GoPro Hero+</div>
+						<div class="image-container">
+							<img src="gopro.png">
+						</div>
+						<div class="col-md-4 small-grid require-points">
+							<div class="name">點數</div>
+							<div class="value">75</div>
+						</div>
+						<div class="col-md-4 small-grid">
+							<div class="name">限量</div>
+							<div class="value">5</div>
+						</div>
+						<div class="col-md-4 small-grid">
+							<div class="name">剩餘</div>
+							<div class="value">5</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="grid">
+						<div class="title">Pringo P232（NFC版）隨身印相機 ＋<br>Pringo P232 經典相紙（金）- 108張</div>
+						<div class="image-container">
+							<img src="pringo.png">
+						</div>
+						<div class="col-md-4 small-grid require-points">
+							<div class="name">點數</div>
+							<div class="value">70</div>
+						</div>
+						<div class="col-md-4 small-grid">
+							<div class="name">限量</div>
+							<div class="value">10</div>
+						</div>
+						<div class="col-md-4 small-grid">
+							<div class="name">剩餘</div>
+							<div class="value">10</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="grid">
+						<div class="title">宜蘭名宿 建築師湧泉泡湯會館<br>浮雲間雙人房</div>
+						<div class="image-container">
+							<img src="room.png">
+						</div>
+						<div class="col-md-4 small-grid require-points">
+							<div class="name">點數</div>
+							<div class="value">40</div>
+						</div>
+						<div class="col-md-4 small-grid">
+							<div class="name">限量</div>
+							<div class="value">5</div>
+						</div>
+						<div class="col-md-4 small-grid">
+							<div class="name">剩餘</div>
+							<div class="value">5</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="grid">
+						<div class="title">iPhone 7 黑色 32GB </div>
+						<div class="image-container">
+							<img src="iphone7.png">
+						</div>
+						<div class="col-md-4 small-grid require-points">
+							<div class="name">點數</div>
+							<div class="value">160</div>
+						</div>
+						<div class="col-md-4 small-grid">
+							<div class="name">限量</div>
+							<div class="value">3</div>
+						</div>
+						<div class="col-md-4 small-grid">
+							<div class="name">剩餘</div>
+							<div class="value">3</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="grid">
+						<div class="title">iPad Air 2 WiFi 32GB</div>
+						<div class="image-container">
+							<img src="ipadair2.png">
+						</div>
+						<div class="col-md-4 small-grid require-points">
+							<div class="name">點數</div>
+							<div class="value">120</div>
+						</div>
+						<div class="col-md-4 small-grid">
+							<div class="name">限量</div>
+							<div class="value">5</div>
+						</div>
+						<div class="col-md-4 small-grid">
+							<div class="name">剩餘</div>
+							<div class="value">5</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="grid">
+						<div class="title">60000 元獎學金</div>
+						<div class="image-container">
+							<img src="60000.png">
+						</div>
+						<div class="col-md-4 small-grid require-points">
+							<div class="name">點數</div>
+							<div class="value">300</div>
+						</div>
+						<div class="col-md-4 small-grid">
+							<div class="name">限量</div>
+							<div class="value">1</div>
+						</div>
+						<div class="col-md-4 small-grid">
+							<div class="name">剩餘</div>
+							<div class="value">1</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="grid">
+						<div class="title">30000 元獎學金</div>
+						<div class="image-container">
+							<img src="30000.png">
+						</div>
+						<div class="col-md-4 small-grid require-points">
+							<div class="name">點數</div>
+							<div class="value">220</div>
+						</div>
+						<div class="col-md-4 small-grid">
+							<div class="name">限量</div>
+							<div class="value">3</div>
+						</div>
+						<div class="col-md-4 small-grid">
+							<div class="name">剩餘</div>
+							<div class="value">3</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="grid">
+						<div class="title">10000 元獎學金</div>
+						<div class="image-container">
+							<img src="10000.png">
+						</div>
+						<div class="col-md-4 small-grid require-points">
+							<div class="name">點數</div>
+							<div class="value">100</div>
+						</div>
+						<div class="col-md-4 small-grid">
+							<div class="name">限量</div>
+							<div class="value">10</div>
+						</div>
+						<div class="col-md-4 small-grid">
+							<div class="name">剩餘</div>
+							<div class="value">10</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="section5">
+			<h3 class="bonus-title">獲得更多點數技巧</h3>
+			<div class="row">
+				<div class="col-md-3">
+					<hr class="yellow-line">
+					<div class="bouns">B O N U S</div>
+				</div>
+				<div class="col-md-9">
+					<p class="bonus-content">
+						參賽者於個人臉書發佈任何關於活動環節的內容，利用創意創造單篇貼文獲得 100 讚以上，即可獲得“天眼”點數 3 點，若貼文以影片或是直播的方式則可獲得“天眼”點數 6 點，以此延續活動熱度。<br>
+						參賽者同時若為店家，分享集點樹使用效益或心得於相關店家交流平台，截圖私訊「集點樹粉絲專頁」亦可獲得“天眼”點數 2 點。
+					</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-6 register-container">
+					<div class="row register-store">
+						<a href="#">
+							<div class="circle"></div>
+							<div class="round"></div>
+							<div class="content">
+								<div class="content-container">
+									<div>店家註冊</div>
+									<hr>
+									<div>成為店家</div>
+								</div>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="col-md-6 register-container">
+					<div class="row register-contest">
+						<a href="#">
+							<div class="circle"></div>
+							<div class="round"></div>
+							<div class="content">
+								<div class="content-container">
+									<div>報名參賽</div>
+									<hr>
+									<div>魔幻大師</div>
+								</div>
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="section6">
+			<div class="row headline">
+				<h3 class="text-center">關於我們</h3>
+				<img src="title_line.png">
+			</div>
+			<div class="row description">
+				<div class="col-md-8 col-center">
+					<div class="col-md-6">
+						<p class="title">+主辦單位+</p>
+						<p>Sloth Tech Inc.</p>
+						<p class="title">+聯絡我們+</p>
+						<p>02-23224214</p>
+					</div>
+					<div class="col-md-6">
+						<p class="title">+集點樹下載連結+</p>
+						<div class="col-md-6">
+							<a href="https://play.google.com/store/apps/details?id=tw.com.pointtree.pointtreeuser">
+								<img src="googleplay.png">
+							</a>
+						</div>
+						<div class="col-md-6">
+							<a href="https://itunes.apple.com/tw/app/ji-dian-shu/id1144528128?mt=8">
+								<img src="appstore.png">
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</body>
+</html>
