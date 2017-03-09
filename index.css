@@ -12,6 +12,10 @@ p {
 	color: white;
 }
 
+h3{
+	color:white;
+}
+
 .col-center{
 	float: none;
 	margin: 0 auto;
@@ -53,10 +57,14 @@ p {
 	color: yellow;
 }
 
+.description a{
+	color: yellow;
+}
+
 /* nav */
 
+
 .navbar-default {
-	padding: 30px 0px;
 	background-color: black;
 	text-align: center;
 }
@@ -68,7 +76,7 @@ p {
 }
 
 .navbar-default .navbar-nav li {
-	margin: 10px 30px;
+	margin: 15px 10px;
 }
 
 .navbar-default .navbar-nav li a {
@@ -99,6 +107,8 @@ p {
 	background-color: black;
 }
 
+
+
 /* section 1 */
 
 .hero-image {
@@ -117,6 +127,10 @@ p {
 .intro {
 	margin: 120px 0px;
 	font-size: 20px;
+}
+
+.intro span{
+	color: yellow;
 }
 
 /* section 3 */
@@ -263,10 +277,21 @@ p {
 	height: 100px;
 }
 
-.grid .require-points {
+.grid .require-points-gold {
 	background-color: #c4be9d;
 	color: white;
 }
+
+.grid .require-points-silver {
+	background-color: #BAB6B6;
+	color: white;
+}
+
+.grid .require-points-pink {
+	background-color: #EEA9A9;
+	color: white;
+}
+
 
 .grid .small-grid .name {
 	text-align: center;
@@ -280,6 +305,35 @@ p {
 	font-size: 40px;
 }
 
+.pink{
+	background-color: rgba(0, 0, 0, 0.3);
+}
+
+.pink h4{
+	color:#EEA9A9;
+	padding: 10px 0px 10px 0px;
+	letter-spacing:2px;
+}
+
+.silver{
+	background-color: rgba(0, 0, 0, 0.3);
+}
+
+.silver h4{
+	color:#FEFEFE;
+	padding: 10px 0px 10px 0px;
+	letter-spacing:2px;
+}
+
+.gold{
+	background-color: rgba(0, 0, 0, 0.3);
+}
+
+.gold h4{
+	color:#FFEC7F;
+	padding: 10px 0px 10px 0px;
+	letter-spacing:2px;
+}
 /* section 5 */
 
 .bonus-title {
