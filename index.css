@@ -362,6 +362,11 @@ p {
 	overflow: hidden;
 }
 
+.grid .image-container img {
+	width: auto;
+	height: 100%;
+}
+
 .grid .small-grid {
 	height: 100px;
 }
