@@ -328,15 +328,15 @@ p {
 	letter-spacing: 2px;
 }
 
-.tag .pink {
+.pink {
 	color: #EEA9A9;
 }
 
-.tag .silver {
+.silver {
 	color: #FEFEFE;
 }
 
-.tag .gold {
+.gold {
 	color: #FFEC7F;
 }
 
@@ -405,10 +405,6 @@ p {
 	}
 
 	.tag {
-		padding: 0px;
-	}
-
-	.tag h4 {
 		font-size: 14px;
 	}
 
