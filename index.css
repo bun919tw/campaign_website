@@ -54,6 +54,30 @@ p {
 	color: yellow;
 }
 
+@media(max-width: 767px) {
+	.headline {
+		padding: 0px;
+	}
+
+	.headline h3 {
+		font-size: 16px;
+	}
+
+	.headline h4 {
+		font-size: 14px;
+		margin: 10px 0;
+	}
+
+	.description {
+		padding: 0px;
+		font-size: 12px;
+	}
+
+	.description p {
+		margin-top: 5px;
+	}
+}
+
 /* nav */
 
 
@@ -111,13 +135,23 @@ p {
 	color: white;
 }
 
+@media(max-width: 767px) {
+	.hero-image {
+		margin-top: 20px;
+	}
+
+	.organizer h3 {
+		font-size: 12px;
+	}
+}
+
 /* section 2 */
 
 .section2 {
 	background-image: url("bg_02.png");
-	background-position: center top;
+	background-position: center bottom;
 	background-repeat: no-repeat;
-    background-size: 100% auto;
+    background-size: contain auto;
 }
 
 .intro {
@@ -127,6 +161,13 @@ p {
 
 .intro span {
 	color: yellow;
+}
+
+@media(max-width: 767px) {
+	.intro {
+		margin: 20px 0px;
+		font-size: 12px;
+	}
 }
 
 /* section 3 */
@@ -238,13 +279,47 @@ p {
 	color: red;
 }
 
+@media(max-width: 767px) {
+	.rule-container .left-shadow {
+		box-shadow: -4px 0px 5px #121212;
+	}
+
+	.rule-container .right-shadow {
+		box-shadow: 4px 0px 5px #121212;
+	}
+
+	.rule-container .rule-title-container .rule-title h2 {
+		font-size: 9px;
+		margin: 0px;
+	}
+
+	.rule-container .rule-title-container .rule-title h3 {
+		font-size: 9px;
+		margin: 2px;
+	}
+
+	.rule-container .rule-content-container .rule-content {
+		top: 10%;
+	}
+
+	.rule-container .rule-content-container .rule-content h3 {
+		font-size: 8px;
+		margin: 5px;
+	}
+
+	.rule-container .rule-content-container .rule-content p {
+		font-size: 8px;
+		padding: 5px;
+	}
+}
+
 /* section 4 */
 
 .section4 {
 	background-image: url("bg_04.png");
-	background-position: center top;
+	background-position: center bottom;
 	background-repeat: no-repeat;
-    background-size: 100% auto;
+    background-size: contain auto;
 }
 
 .tag {
@@ -318,30 +393,47 @@ p {
 	font-size: 40px;
 }
 
+@media(max-width: 767px) {
+	.col-xs {
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+
+	.tag {
+		padding: 0px;
+	}
+
+	.tag h4 {
+		font-size: 14px;
+	}
+
+	.grid {
+		height: 180px;
+	}
+
+	.grid .title {
+		height: 30px;
+		font-size: 7px;
+	}
+
+	.grid .image-container {
+		height: 100px;
+	}
+
+	.grid .small-grid {
+		height: 50px;
+	}
+
+	.grid .small-grid .name {
+		font-size: 12px;
+	}
+
+	.grid .small-grid .value {
+		font-size: 12px;
+	}
+}
+
 /* section 5 */
-
-.bonus-title {
-	margin-top: 80px;
-	margin-left: 30px;
-	color: yellow;
-}
-
-.bonus-content {
-	margin: 0px 60px 80px 40px;
-	font-size: 20px;
-}
-
-.bouns {
-	float: right;
-	color: yellow;
-	font-size: 20px;
-}
-
-.yellow-line {
-	border-color: yellow;
-	border-bottom: 8px solid yellow;
-	margin: 0px 0px 10px 0px;
-}
 
 .register-container {
     position: relative;
@@ -419,12 +511,46 @@ p {
 	margin: 5px 10px;
 }
 
+@media(max-width: 767px) {
+	.register-container .circle {
+		width: 100px;
+		height: 100px;
+		border-radius: 100px;
+	}
+
+	.register-container .round {
+		width: 120px;
+		height: 120px;
+		border-radius: 120px;
+		border: 2px solid yellow;
+	}
+
+	.register-container .content {
+		width: 70px;
+		height: 70px;
+	}
+
+	.register-container .content .content-container div {
+		font-size: 16px;
+	}
+
+	.register-container .content .content-container hr {
+		margin: 5px 0px;
+	}
+}
+
 /* animation */
 
 .register-container .round:hover {
 	animation-name: clickable;
 	animation-duration: 0.5s;
 	animation-iteration-count: infinite;
+}
+
+@media(max-width: 767px) {
+	.register-container .round:hover {
+		animation-name: none;
+	}
 }
 
 @keyframes clickable {
