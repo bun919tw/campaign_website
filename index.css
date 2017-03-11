@@ -514,6 +514,19 @@ p {
 	margin: 5px 10px;
 }
 
+.notice {
+	font-size: 18px;
+}
+
+.notice .title {
+	color: yellow;
+	margin-top: 30px;
+}
+
+.notice li {
+	color: white;
+}
+
 @media(max-width: 767px) {
 	.register-container .circle {
 		width: 100px;
@@ -539,6 +552,14 @@ p {
 
 	.register-container .content .content-container hr {
 		margin: 5px 0px;
+	}
+
+	.notice {
+		font-size: 10px;
+	}
+
+	.notice .title {
+		margin-top: 10px;
 	}
 }
 
