@@ -153,7 +153,7 @@ p {
 	background-image: url("bg_02.png");
 	background-position: center bottom;
 	background-repeat: no-repeat;
-    background-size: contain auto;
+    background-size: cover;
 }
 
 .intro {
@@ -321,7 +321,7 @@ p {
 	background-image: url("bg_04.png");
 	background-position: center bottom;
 	background-repeat: no-repeat;
-    background-size: contain auto;
+    background-size: cover;
 }
 
 .tag {
